@@ -68,3 +68,12 @@ pip install -r requirements.txt
     - `product_id`: Foreign key, references the `product_id` in the `products` table.
     - `scrape_time`: Text, timestamp of the scraping event.
     - `price`: Real, the price of the product at the given timestamp.
+
+**Snapshot of products table**
+![Alt text](products.png)
+
+**Snapshot of price_history table**
+![Alt text](price_history.png)
+
+**Snapshot of price history graph created using matplolib**
+![Alt text](price_history_graph.png)
