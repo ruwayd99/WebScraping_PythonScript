@@ -2,8 +2,6 @@
 
 This repository contains a Python script for web scraping GPU information from amazon. There are two files with two different functionalities. 
 
-## main.py
-
 # Amazon Product Scraper (main.py)
 
 This Python script (`main.py`) is designed to scrape product titles and prices from Amazon based on a search query. For now the search query has been set to 'GPU'. It utilizes the BeautifulSoup library for web scraping and the requests library to fetch HTML content of the website. It fetches the first 10 products from the query and writes the product title and prices to `gpu.csv`. 
